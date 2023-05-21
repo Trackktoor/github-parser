@@ -3,12 +3,12 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
-github_username = 'Palas1k'
+
 def get_data(url):
 
-    # req = requests.get(url)
-    # with open('gitdata.html', 'w', encoding="utf-8") as file:
-    #     file.write(req.text)
+    req = requests.get(url)
+    with open('gitdata.html', 'w', encoding="utf-8") as file:
+        file.write(req.text)
 
     with open('gitdata.html') as file:
         src = file.read()
@@ -39,5 +39,8 @@ def get_data(url):
         # with open('parsed_data.json', 'w', encoding="utf-8") as file:
         #     json.dump(project_data, file, indent=4, ensure_ascii=False)
 
+    return project_data
 
-get_data( ''.join(f"https://github.com/{github_username}?tab=repositories"))
+
+if __name__ == '__main__':
+    get_data('None')

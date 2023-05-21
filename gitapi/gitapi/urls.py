@@ -24,7 +24,7 @@ from parser.views import UserReps
 router = DefaultRouter()
 
 urlpatterns = [
-    path(r'get_info/', UserReps.as_view()),
+    path(r'get_info/<str:github_username>', UserReps.as_view()),
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
 ]
