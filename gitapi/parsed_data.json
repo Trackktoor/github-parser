@@ -1,0 +1,38 @@
+[
+    {
+        "title_repository": "github-parser",
+        "description_repository": "\n          РџР РћР•РљРў API GITHUB + LOGGING INFO TO JSON + Parser РџРѕР»СѓС‡РµРЅРёРµ РІСЃРµС… РЅР°Р·Р°РІРЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёРµРІ РёС… РѕРїРёСЃР°РЅРёСЏ Рё РєРѕРіРґР° Р±С‹Р»Рѕ РїРѕСЃР»РµРґРЅРµРµ РёР·РјРµРЅРµРЅРёРµ\n        ",
+        "last_change_date": "20-May-2023",
+        "url_repository": "https://github.com/palas1k/github-parser"
+    },
+    {
+        "title_repository": "messenger",
+        "description_repository": "Has no description",
+        "last_change_date": "12-May-2023",
+        "url_repository": "https://github.com/palas1k/messenger"
+    },
+    {
+        "title_repository": "portfolio",
+        "description_repository": "Has no description",
+        "last_change_date": "13-Apr-2023",
+        "url_repository": "https://github.com/palas1k/portfolio"
+    },
+    {
+        "title_repository": "recipe",
+        "description_repository": "Has no description",
+        "last_change_date": "15-Mar-2023",
+        "url_repository": "https://github.com/palas1k/recipe"
+    },
+    {
+        "title_repository": "chipkazan",
+        "description_repository": "Has no description",
+        "last_change_date": "24-Nov-2022",
+        "url_repository": "https://github.com/palas1k/chipkazan"
+    },
+    {
+        "title_repository": "studyapp",
+        "description_repository": "Has no description",
+        "last_change_date": "17-Sep-2022",
+        "url_repository": "https://github.com/palas1k/studyapp"
+    }
+]
