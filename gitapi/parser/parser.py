@@ -5,12 +5,12 @@ from bs4 import BeautifulSoup
 
 github_username = 'Palas1k'
 def get_data(url):
-    #
+
     # req = requests.get(url)
-    # with open('data/gitdata.html', 'w', encoding="utf-8") as file:
+    # with open('gitdata.html', 'w', encoding="utf-8") as file:
     #     file.write(req.text)
 
-    with open('data/gitdata.html') as file:
+    with open('gitdata.html') as file:
         src = file.read()
 
     soup = BeautifulSoup(src, "lxml")
@@ -36,8 +36,8 @@ def get_data(url):
                         "url_repository": rep_urls,
                     },
         )
-        with open('data/parsed_data.json', 'w', encoding="utf-8") as file:
-            json.dump(project_data, file, indent=4, ensure_ascii=False)
+        # with open('parsed_data.json', 'w', encoding="utf-8") as file:
+        #     json.dump(project_data, file, indent=4, ensure_ascii=False)
 
 
 get_data( ''.join(f"https://github.com/{github_username}?tab=repositories"))
