@@ -7,9 +7,7 @@ from parser.parser import get_data
 
 
 class UserReps(APIView):
-    def get(self, request, github_username):
+    def get(self,request, github_username):
         url = ''.join(f"https://github.com/{github_username}?tab=repositories")
         data = get_data(url)
-        print(github_username)
-        print(data)
         return Response(data)
