@@ -1,16 +1,11 @@
-# Техническое задание для команды DD TEAM
-# Время выполенения: 16 мая 2023 по 1 июня 2023 включительно
-## **ОПИСАНИЕ ПРОЕКТОВ**
-
-
-## НАИЛЬ
+## Документация к проекту 
 
 ## ПРОЕКТ API GITHUB + LOGGING INFO TO JSON + Parser
 
-### Для проверки будет иcпользоватья POSTMAN
-### Также будет тестирование с копированием репозитрия (Должен быть файл requirements.txt)
+# Зависимости указаны в файле requirements.txt
+# Команла для установки pip install -r requirements.txt
 
-## **РУТЫ ДЛЯ ЗАПРОСОВ** *EntryPoint: http://get_info/
+## **РУТЫ ДЛЯ ЗАПРОСОВ** *EntryPoint: http://localhost/get_info/
 ## **Получение всех назавний репозиториев их описания и когда было последнее изменение**
 
 
@@ -56,30 +51,7 @@
 # или описание, последнее изменение, они должны быть заменены в файле пользователя.
 
 
-## ДИМА
+## Схема работы:
 
-## ПРОЕКТ PARSER VK GROUPS + JSON 
-
-
-
-## Пример выполнения программы
-
-## Консоль
-# $desktop: python3 parser_vk_groups.py
-# $desktop: Enter link group: {link_group}
-# $desktop: Data collection...
-# $desktop: Data loaded into {group name in vk}.json file
-
-### Пример JSON файла
-
-```JSON
-{
-  "data": {
-      {
-        "title_group": "Title_1",
-        "count_users": 250000,
-        "avatar_group": "{path to image file}",
-        "description_group": "Description_1"
-      }
-  }
-}
+# GET-запрос на данные с консоли -> Обработка данных в консольном приложении
+# -> Создание/изменение файла json (Который соответствует нику на GITHUB)
